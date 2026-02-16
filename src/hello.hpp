@@ -1,3 +1,4 @@
 #include <string>
+using std::string;
 
-std::string hello();
+int strcmp_case_insensitive(string s1, string s2, int skip = 0);
